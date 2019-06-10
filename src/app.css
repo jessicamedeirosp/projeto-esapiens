@@ -1,0 +1,82 @@
+div{
+    display: block
+}
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+#principal{           
+    display: flex;
+    margin: auto
+}
+.container{         
+    width: 100%;
+    max-width: 360px;  
+    margin: auto;
+    padding: 0 15px;
+}
+input, button {
+    float: left;
+    outline:none;
+}
+input, select{
+    height: 35px;
+    width: 100%;
+    border:1px solid #ccc;           
+}
+button{
+    height: 74px;
+    background-color: #4CAF50;
+    border:1px solid #4CAF50;
+    color: #013103;
+    width: 100%;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+#user-list{
+    text-align: center
+}
+img{
+    width: 80%;
+    
+}
+h1,h2{
+    text-transform: uppercase;
+    text-align: center;
+    color:#013103
+}
+ #user-form{
+     margin-bottom: 10px;
+ }
+hr{
+    margin: 30px 0;
+}
+ul li a{            
+    display: block;
+    background-color: #4caf50;
+    padding: 10px;
+    text-align: center;
+    color: #013103;
+    list-style: none;
+    text-decoration: none;
+    margin-bottom:15px;   
+}
+ul li{
+    border-bottom: 1px solid #ccc; 
+}
+ul {
+   list-style: none;
+   text-align: center;
+   padding-left: 0px;
+}
+ul h4{    
+    text-transform: uppercase;
+}
+.input-select{
+    width:80%;
+    float: left
+}
+.btn{
+    width:19%;
+    float: left
+}

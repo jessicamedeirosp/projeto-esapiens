@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pit-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Projeto - GITHUB</title>
+</head>
+<body>
+    <div id="principal">
+        <form class="container" id="user-form">
+            <h1>Repositórios</h1>            
+            <p>Pesquisar repositório</p>
+            <div class="input-select">
+                <input type="text" id="user" name="User">
+                <select name="pesquisar" id="pesquisar">
+                    <option value="star-decreasing">+ Star</option>
+                    <option value="star-ascending">- Star</option>
+                </select>
+            </div>
+            <div class="btn">
+                <button type="submit">ok</button>
+            </div>        
+            <div id="user-list"></div>
+            <ul id="repo-list"></ul>
+        </form>                
+    </div>
+
+    <script src="./bundle.js"></script>
+    
+</body>
+</html>
