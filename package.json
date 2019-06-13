@@ -21,6 +21,7 @@
   "dependencies": {
     "@babel/plugin-transform-async-to-generator": "^7.3.4",
     "axios": "^0.18.0",
+    "cors": "^2.8.5",
     "css-loader": "^2.1.1",
     "mini-css-extract-plugin": "^0.7.0",
     "style-loader": "^0.23.1"
